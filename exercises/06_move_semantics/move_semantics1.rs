@@ -1,6 +1,6 @@
 // TODO: Fix the compiler error in this function.
-fn fill_vec(vec: Vec<i32>) -> Vec<i32> {
-    let vec = vec;
+fn fill_vec(mvec: Vec<i32>) -> Vec<i32> {
+    let mut vec = mvec.clone();
 
     vec.push(88);
 
