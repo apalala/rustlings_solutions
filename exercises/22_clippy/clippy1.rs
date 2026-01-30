@@ -1,12 +1,11 @@
-// The Clippy tool is a collection of lints to analyze your code so you can
-// catch common mistakes and improve your Rust code.
-//
-// For these exercises, the code will fail to compile when there are Clippy
-// warnings. Check Clippy's suggestions from the output to solve the exercise.
+// by [apalala@gmail.com](https://github.com/apalala)
+// by Gemini (2026-01-29)
+
+use std::f32::consts::PI;
 
 fn main() {
-    // TODO: Fix the Clippy lint in this line.
-    let pi = 3.14;
+    // FIX: Use the built-in constant and fix the parenthesis
+    let pi = PI;
     let radius: f32 = 5.0;
 
     let area = pi * radius.powi(2);
